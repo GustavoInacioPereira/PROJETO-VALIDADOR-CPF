@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #03cffd;
+}
+
+
+
+.main {
+    height: 40rem;
+    background: #B3093F;
+    border-radius: 20px;
+    position: relative;
+    left: 17rem;
+    top: 3rem;
+    width: 70rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center
+}
+
+.h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60rem;
+    top: 1rem;
+    left: 5rem;
+    background: radial-gradient(circle, rgba(179,9,63,1) 0%, rgba(200,11,71,1) 35%, rgba(221,13,79,1) 52%, rgba(255,3,83,1) 100%);
+    border: 2px solid #03cffd;
+    border-radius: 90px;
+}
+
+.subtitulo p {
+    font-style: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.validador {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CPF {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.btn:hover {
+    background: rgb(21, 195, 9);
+    border: 3px solid black;
+}
+
+
+.resultado {
+    background: radial-gradient(circle, rgba(179,9,63,1) 0%, rgba(200,11,71,1) 35%, rgba(221,13,79,1) 52%, rgba(255,3,83,1) 100%);
+    border: 2px solid #03cffd;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    left: 10rem;
+    font-size: 50px;
+    width: 50rem;
+}
